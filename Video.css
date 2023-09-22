@@ -16,30 +16,22 @@ h2 {
     /* Impedisce il testo di andare a capo */
 }
 
-h3 {
-    color: #000000;
-        margin: 0;
-        /* Rimuovi il margine predefinito dell'h2 */
-        font-size: 26px;
-        /* Imposta la dimensione del testo (puoi regolare il valore a tuo piacimento) */
-        margin-top: 25px;
-        /* Imposta il margine superiore (spazio tra il logo e il testo) */
-        white-space: nowrap;
-    /* Impedisce il testo di andare a capo */
-}
 
 .content {
     flex: 1;
-    background-color: #f4f4f4;
-    margin-left: 282px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 
 table {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 0px;
     border-collapse: collapse;
     font-size:30px;
 }
@@ -60,14 +52,10 @@ td {
 
 .cella{
     background-color: #D9D9D9;
+    color: #CD0033;
+    font-size:30px;
 }
 
-
-.red-bar {
-    background-color: #CD0033;
-    height: 10px;
-    margin-top: 20px;
-}
 
 .footer {
     margin-top: 30px;
@@ -78,12 +66,12 @@ td {
     color: #EDEDED;
     border: none;
     border-radius: 10px;
-    padding: 10px 15px;
+    padding: 10px 100px;
     cursor: pointer;
     font-size: 22px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 50px;
 
 }
